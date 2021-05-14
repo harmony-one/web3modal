@@ -20,6 +20,8 @@ import DcentWalletLogo from "../logos/dcentwallet.png";
 import BitskiLogo from "../logos/bitski.svg";
 // @ts-ignore
 import FrameLogo from "../logos/frame.svg";
+// @ts-ignore
+import HarmonyLogo from "../logos/harmony.svg";
 
 import { IProviderInfo } from "../../helpers";
 
@@ -132,4 +134,12 @@ export const FRAME: IProviderInfo = {
   logo: FrameLogo,
   type: "web",
   check: "isFrameNative"
+};
+
+export const HARMONY: IProviderInfo = {
+  id: "harmony",
+  name: "Harmony",
+  logo: HarmonyLogo,
+  type: "web",
+  check: "isHarmony"
 };
